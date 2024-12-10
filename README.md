@@ -14,9 +14,7 @@ Requests: A library for making HTTP requests.
 
 **Inspect** the HTML Structure: Use your browser's developer tools to inspect the HTML elements containing the desired data.
 
-**Write the Scraping Script:**
-
-Use a suitable library to fetch the HTML content of the target page, and Parse the HTML to extract the specific data elements using CSS selectors or XPath expressions.
+**Write the Scraping Script:** Use a suitable library to fetch the HTML content of the target page, and Parse the HTML to extract the specific data elements using CSS selectors or XPath expressions.
 
 **Clean** and preprocess the extracted data, such as removing unwanted characters or formatting.
 
