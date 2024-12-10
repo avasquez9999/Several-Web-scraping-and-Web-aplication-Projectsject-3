@@ -1,11 +1,23 @@
-# Web-scraping-Project-2
+## Creating 4 Different Web Scraping/web application apps for ISDS 558
+Web scraping is a technique used to extract data from websites. By automating this process, you can efficiently gather large amounts of data for analysis and insights.
 
-**Description:**
+**Tools and Libraries**
 
-This script uses Beautiful Soup in Python to scrape data from a Flipkart search page for laptops (provided link). It focuses on extracting specific information from the search results:
+Here are some popular tools and libraries you can use for web scraping:
 
-Product Name: The name of the laptop displayed on the search page.
+**Python:**
+Beautiful Soup 4: A powerful library for parsing HTML and XML documents.
+Scrapy: A framework for building large-scale web scraping projects.
+Requests: A library for making HTTP requests.
 
-Rating: The customer rating (if available) for the specific laptop.
+**Identify** the Target Websites: Determine the websites from which you want to extract data.
 
-The script utilizes Beautiful Soup to parse the HTML content of the webpage and then identifies elements containing the desired product names and ratings.
+**Inspect** the HTML Structure: Use your browser's developer tools to inspect the HTML elements containing the desired data.
+
+**Write the Scraping Script:**
+
+Use a suitable library to fetch the HTML content of the target page, and Parse the HTML to extract the specific data elements using CSS selectors or XPath expressions.
+
+**Clean** and preprocess the extracted data, such as removing unwanted characters or formatting.
+
+**Store** the extracted data in a desired format (e.g., CSV, JSON, or directly into a database).
